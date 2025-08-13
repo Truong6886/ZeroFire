@@ -140,28 +140,28 @@
                 <!-- 2 ô cùng hàng -->
                 <div class="row-two" style="display:flex; gap:10px;">
                   <div class="form-group" style="flex:1;">
-                    <label>* ID người dùng</label>
+                    <label style="font-weight: bold;">* ID người dùng</label>
                     <input type="text" name="name" placeholder="Nhập ID của bạn" required 
                     onfocus="this.placeholder=''" onblur="this.placeholder='Nhập ID của bạn'">
                   </div>
                   <div class="form-group" style="flex:1;">
-                    <label>* Email nhận phản hồi</label>
+                    <label style="font-weight: bold;">* Email nhận phản hồi</label>
                     <input type="email" name="email" placeholder="Nhập Email của bạn" required
                     onfocus="this.placeholder=''" onblur="this.placeholder='Nhập Email của bạn'">
                   </div>
                 </div>
 
-                <label>* Tiêu đề</label>
+                <label style="font-weight: bold;">* Tiêu đề</label>
                 <input type="text" name="subject" placeholder="Nhập tiêu đề câu hỏi" required
                 onfocus="this.placeholder=''" onblur="this.placeholder='Nhập tiêu đề câu hỏi'">
 
-                <label>* Nội dung yêu cầu hỗ trợ</label>
+                <label style="font-weight: bold;">* Nội dung yêu cầu hỗ trợ</label>
                 <textarea name="message" rows="3" placeholder="Nhập nội dung bạn cần hỗ trợ" required
                 onfocus="this.placeholder=''" onblur="this.placeholder='Nhập nội dung bạn cần hỗ trợ'"></textarea>
 
                 <div id="drop-zone"
                   style="border:2px dashed #555; padding:15px; text-align:center; cursor:pointer; border-radius:6px; background:#111;">
-                  <label>Tệp đính kèm</label>
+                  <label style="font-weight: bold;">Tệp đính kèm</label>
                   <div class="file-upload">
                     <span id="file-name" class="bi bi-paperclip">Kéo tệp tin của bạn để bắt đầu tải lên hoặc nhấn</span>
                     <button type="button" onclick="fileInput.click()">Thêm tệp tin</button>
