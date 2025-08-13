@@ -413,16 +413,11 @@ span {
   .navmenu a:hover,
   .navmenu li:hover>a {
     background: #ED999A;
-    /* Nền hồng */
     color: #fff !important;
-    /* Chữ trắng */
     border-radius: 6px;
     transition: background 0.2s, color 0.2s;
     box-shadow: 0 4px 24px 0 rgba(237, 153, 154, 0.25);
-    /* Đổ bóng hồng rộng ra */
-
     display: inline-block;
-
   }
 
   .navmenu li:hover>a,
@@ -435,7 +430,6 @@ span {
     margin: 0;
     padding: 10px 0;
     background: #ED999A;
-
     display: block;
     position: absolute;
     visibility: hidden;
@@ -1506,8 +1500,8 @@ section,
 .stats-board-header span {
   font-weight: 400;
   font-size: 0.95rem;
-  color: #ddd;
-  opacity: 0.8;
+  color: #ffffff;
+  
 }
 
 /* BẢNG DỮ LIỆU */
