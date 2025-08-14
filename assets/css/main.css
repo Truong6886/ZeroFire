@@ -509,12 +509,12 @@ span {
 
 .navmenu .dropdown .dropdown-menu.custom-dropdown {
   position: absolute;
-  left: 0;
-  top: 100%;   
+  left: 10px;
+  top: 80%;   
   margin: 0 !important;
   border: none !important;
   background: transparent !important; 
-  padding: calc(var(--title-h) + -35px) 10px 15px !important; 
+  padding: calc(var(--title-h) + -40px) 10px 15px !important; 
   box-shadow: none !important;
   min-width: 200px;
   border-radius: 0 !important;   
